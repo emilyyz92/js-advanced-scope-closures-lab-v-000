@@ -10,3 +10,9 @@ const produceDrivingRange = function(blockRange) {
     }
   }
 }
+
+const produceTipCalculator = function(percent) {
+  return function(amount) {
+    return amount * percent
+  }
+}
