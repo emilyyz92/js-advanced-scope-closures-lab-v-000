@@ -16,3 +16,12 @@ const produceTipCalculator = function(percent) {
     return amount * percent
   }
 }
+
+const createDriver = function() {
+  let driverId = 0;
+  class Driver {
+    constructor (name) {
+      this.name = name
+    }
+  }
+}
