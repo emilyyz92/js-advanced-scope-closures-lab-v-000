@@ -6,7 +6,7 @@ const produceDrivingRange = function(blockRange) {
     if (distance > 0) {
       return `${distance} blocks out of range`
     } else {
-      return `within range by ${distance}`
+      return `within range by ${-distance}`
     }
   }
 }
